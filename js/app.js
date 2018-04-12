@@ -16,7 +16,7 @@ ajaxhttp.send();
 });
 function displaydata(data,n){
 
-  var mystring = "<p>"+data[n].quote +" -"+data[n].author+"</p>";
+  var mystring = "<p>"+data[n].quote +"</br> -"+data[n].author+"</p>";
 thequoteplace.innerHTML = mystring;
-  
+
 }
