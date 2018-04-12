@@ -1,4 +1,4 @@
-var butn = document.getElementByID("butn");
+var butn = document.getElementById("butn");
 butn.addEventListener("click",function(){
   var ajaxhttp = new XMLHttpRequest();
 ajaxhttp.open('GET','https://raw.githubusercontent.com/Essssss/random-quotes-generator/master/myrandomquotes.json',true);
