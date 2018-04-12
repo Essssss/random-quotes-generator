@@ -38,8 +38,8 @@
   text-size: 50px;
   border-style: solid;
   border-radius: 15px;
-  border-color:#DEB887;
-  background-color:#59373c;
+  border-color:#ff7566;
+  background-color:#ff7566;
 }
 .btn:hover{
   opacity:1;
