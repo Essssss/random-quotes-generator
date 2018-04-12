@@ -1,0 +1,47 @@
+
+.body {
+   background-image: url("https://wallpaperscraft.com/image/wall_brick_surface_texture_118493_1920x1080.jpg");
+   background-color: #cccccc;
+  height:100%;
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  padding:100px;
+}
+
+
+.box{
+  border-style:solid;
+  border-radius: 15px;
+  background-color:#59373c;
+  border-color: 	#59373c;
+  border-width: 4px;
+  text-align: center;
+  margin: 220px 400px 0px 400px;
+  padding: 25px 25px 25px 25px;
+  opacity: 0.8;
+
+}
+.box:hover{
+  opacity: 1;
+}
+.btnbox{
+  margin: 0px 100px 0px 450px;
+}
+.text{
+  font-family:Poiret One;
+  text-size: 50px;
+  color: grey;
+}
+.btn{
+  text-align: center;
+  text-size: 50px;
+  border-style: solid;
+  border-radius: 15px;
+  border-color:#DEB887;
+  background-color:#59373c;
+}
+.btn:hover{
+  opacity:1;
+  border-color:#CD5C5C;
+}
