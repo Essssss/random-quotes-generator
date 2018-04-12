@@ -40,6 +40,8 @@
   border-radius: 15px;
   border-color:#ff7566;
   background-color:#ff7566;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .btn:hover{
   opacity:1;
@@ -58,7 +60,8 @@
   border-radius: 15px;
   border-color:#ff7566;
   background-color:#ff7566;
-  padding:10px;
+  padding-top:10px;
+  padding-bottom:10px;
 }
 .tweetbtn:hover{
   opacity:0.8;

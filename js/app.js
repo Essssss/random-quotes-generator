@@ -1,3 +1,4 @@
+var twitterlink = document.getElementById(tweetlink);
 var thequoteplace = document.getElementById("quoteplace");
 var buttn = document.getElementById("butn");
 var clickscounter =0;
@@ -18,5 +19,6 @@ function displaydata(data,n){
 
   var mystring = "<p>"+data[n].quote +"</br> -"+data[n].author+"</p>";
 thequoteplace.innerHTML = mystring;
+twitterlink.setAttribute("href","https://twitter.com/intent/tweet/?text="+data[n].quote);
 
 }
