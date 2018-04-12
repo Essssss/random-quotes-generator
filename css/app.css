@@ -26,7 +26,7 @@
   opacity: 0.8;
 }
 .btnbox{
-  margin: 0px 100px 0px 450px;
+  margin: 0px 100px 0px 100px;
 }
 .text{
   font-family:Poiret One;
@@ -43,5 +43,24 @@
 }
 .btn:hover{
   opacity:1;
+  border-color:#FFE4E1;
+}
+.signature{
+  text-align: center;
+  background-color:#ff7566;
+  opacity: 0.8;
+}
+.tweetbtn{
+  text-align: center;
+  text-color: #4B0082;
+  text-size: 50px;
+  border-style: solid;
+  border-radius: 15px;
+  border-color:#ff7566;
+  background-color:#ff7566;
+  padding:10px;
+}
+.tweetbtn:hover{
+  opacity:0.8;
   border-color:#FFE4E1;
 }
