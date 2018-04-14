@@ -67,3 +67,9 @@
   opacity:0.8;
   border-color:#FFE4E1;
 }
+h2 {
+  text-size: 450px;
+  color:#FFE4E1;
+  text-align:center;
+  text-shadow: 10px 1px 10px #100, 1px 1px 10px #000;
+}
