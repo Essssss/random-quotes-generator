@@ -18,7 +18,9 @@ ajaxhttp.onload = function(){
   var text = mydata[clickscounter].quote+" -"+mydata[clickscounter].author;
   var url = "https://twitter.com/intent/tweet/?text="+text;
   twitterlink.setAttribute("href",url);
- clickscounter++;} else{clickscounter=0;}
+ clickscounter++;} else{
+   thequoteplace.innerHTML="Quotes ended (: </br> Press New Quote button to start over";
+   clickscounter=0;}
 
 
 };
